@@ -41,7 +41,11 @@ ul {
 }
 
 .link-box {
-  background: rebeccapurple;
+  display: inline-block;
+  padding: 0.5rem;
+  border: white 0.1rem solid;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
 }
 
 .blog {
