@@ -45,5 +45,33 @@ ul {
 }
 
 .blog {
-  width: calc(2 * 100% / 3);
+  height: 100vh;
+  overflow: scroll;
+  padding: 1rem;
+  /*background: blue;*/
+  /*width: calc(2 * 100% / 3);*/
+}
+
+.grid {
+  overflow: auto;
+  background: blue;
+}
+
+.grid__item {
+  background: red;
+  float: left;
+  margin: 1rem;
+  width: calc(100% / 2 - 1rem - 1rem);
+}
+
+.blog-info {
+  overflow: auto;
+}
+
+.blog-info h2 {
+  float: left;
+}
+
+.link-box--right {
+  float: right;
 }
