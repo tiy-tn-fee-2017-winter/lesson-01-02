@@ -8,3 +8,33 @@ ul {
   padding-left: 0;
   list-style: none;
 }
+
+.sidebar {
+  overflow: auto;
+  min-width: 14rem;
+  width: calc(100% / 3);
+  max-width: 14rem;
+
+  height: 100%;
+  padding: 1rem;
+
+  background: #2e5978;
+  text-align: right;
+  color: #fefefe;
+}
+
+.sidebar__title {
+  background: red;
+}
+
+.sidebar__subtitle {
+  background: green;
+}
+
+.stacked {
+  background: orange;
+}
+
+.link-box {
+  background: rebeccapurple;
+}
