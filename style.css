@@ -1,0 +1,10 @@
+body {
+  /* All backgrounds to go edge-to-edge */
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
